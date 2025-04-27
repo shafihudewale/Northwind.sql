@@ -1,6 +1,6 @@
 # Northwind.sql
 
-# W3Schools SQL Database for DB Fiddle
+# SQL Database for Practice & Learning
 
 This repository contains the W3Schools SQL database, cleaned and formatted for use in [DB Fiddle](https://www.db-fiddle.com/) (MySQL 8.0). It includes 8 tables: `Categories`, `Customers`, `Employees`, `Orders`, `OrderDetails`, `Products`, `Shippers`, and `Suppliers`. The data is ideal for practicing SQL queries.
 
