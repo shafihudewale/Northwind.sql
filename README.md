@@ -8,7 +8,7 @@ This repository contains the W3Schools SQL database, cleaned and formatted for u
 - **Categories**: 8 records (product categories)
 - **Customers**: 91 records (customer details)
 - **Employees**: 10 records (employee details)
-- **Orders**: 830 records (customer orders)
+- **Orders**: 401 records (customer orders)
 - **OrderDetails**: 518 records (order items)
 - **Products**: 77 records (product details)
 - **Shippers**: 3 records (shipping companies)
@@ -26,15 +26,15 @@ This repository contains the W3Schools SQL database, cleaned and formatted for u
 **Note**: Insert tables in dependency order (`Categories`, `Suppliers`, `Products`, `Customers`, `Employees`, `Shippers`, `Orders`, `OrderDetails`) to avoid foreign key errors.
 
 ## Files
-- `categories.sql`: Schema and data for `Categories` table.
-- `customers.sql`: Schema and data for `Customers` table.
-- `employees.sql`: Schema and data for `Employees` table.
-- `orders.sql`: Schema and data for `Orders` table.
-- `order_details.sql`: Schema and data for `OrderDetails` table.
-- `products.sql`: Schema and data for `Products` table.
-- `shippers.sql`: Schema and data for `Shippers` table.
-- `suppliers.sql`: Schema and data for `Suppliers` table.
-- `w3schools_full.sql`: Combined schema and data for all tables.
+- `Categories.sql`: Schema and data for `Categories` table.
+- `Customers.sql`: Schema and data for `Customers` table.
+- `Employees.sql`: Schema and data for `Employees` table.
+- `Orders.sql`: Schema and data for `Orders` table.
+- `OrderDetails.sql`: Schema and data for `OrderDetails` table.
+- `Products.sql`: Schema and data for `Products` table.
+- `Shippers.sql`: Schema and data for `Shippers` table.
+- `Suppliers.sql`: Schema and data for `Suppliers` table.
+- `ConcatentedData.sql`: Combined schema and data for all tables.
 
 ## Cleaning Applied
 - Set NULL `PostalCode` in `Customers` to 'Unknown'.
